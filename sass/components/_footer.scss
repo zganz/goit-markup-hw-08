@@ -1,0 +1,213 @@
+/* footer */
+
+.footer-contacts__logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--active-color);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer-contacts__color-white {
+  color: var(--white-color);
+}
+
+.footer-contacts__list a {
+  margin-top: 9px;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts__list a:hover,
+.footer-contacts__list a:focus {
+  color: var(--active-color);
+}
+
+.footer-contacts__address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.hero-footer {
+  padding: 60px 0;
+  background: #2f303a;
+}
+// .footer-wraper {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: flex-start;
+//   @media screen and (max-width: 767px) {
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
+
+.footer-wraper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 767px) {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+}
+
+.footer-contacts {
+  margin-right: 70px;
+
+  @media screen and (min-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+}
+.footer-social h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-top: 12px;
+
+  @media screen and (min-width: 767px) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    margin-top: 60px;
+  }
+}
+.footer-social__list {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.footer-social__ico {
+  fill: #ffffff;
+}
+
+.footer-social__btn {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
+
+  &:hover {
+    background: var(--active-color);
+  }
+}
+
+.footer-subscribe {
+  margin-left: 83px;
+
+  & h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-top: 12px;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 0;
+  }
+}
+.footer-input {
+  width: 358px;
+  height: 50px;
+  background: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 15px;
+
+  &:focus {
+    outline: none;
+    border: 1px solid var(--active-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 450px;
+    height: 50px;
+  }
+  @media screen and (min-width: 767px) and (max-width: 1199px) {
+    width: 450px;
+    height: 50px;
+  }
+}
+
+.subscribe-btn {
+  position: relative;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin-left: 10px;
+  padding-left: 28px;
+  padding-right: 62px;
+  margin-top: 20px;
+}
+.subscribe-btn-ico {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+}

@@ -1,0 +1,50 @@
+.what-we-do-list-block {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+
+.second-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
+}
+.what-we-do-list h3 {
+  text-align: center;
+  @include font(bold, 14px, 16px, 0.03em, var(--white-color));
+  text-transform: uppercase;
+}
+
+.what-we-do__img {
+  position: relative;
+}
+
+.what-we-do__text {
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 27px;
+}
+
+.what-we-do-list {
+  display: flex;
+}
+.what-we-do-list__item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.what-we-do-list__item:first-child {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 0px;
+  
+}
