@@ -87,6 +87,11 @@
     align-items: center;
     margin-right: 0px;
   }
+  @media screen and (min-width: 1200px) {
+    
+    align-items: flex-start;
+    
+  }
 }
 .footer-social h3 {
   font-weight: bold;
@@ -128,8 +133,19 @@
   }
 }
 
+.footer-subscribe label {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+   width: auto;
+  }
+}
+
 .footer-subscribe {
   margin-left: 83px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+   }
+  
 
   & h3 {
     font-weight: bold;
@@ -143,6 +159,7 @@
 
   @media screen and (max-width: 767px) {
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -181,7 +198,7 @@
   }
 
   @media screen and (max-width: 767px) {
-    width: 450px;
+    width: 100%;
     height: 50px;
   }
   @media screen and (min-width: 767px) and (max-width: 1199px) {

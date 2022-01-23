@@ -23,6 +23,10 @@
   max-width: 650px;
   margin: 0 auto;
   margin-bottom: 30px;
+  @media screen and (max-width: 1199px) {
+    font-size: 26px;
+    max-width: 400px;
+  }
 }
 
 .hero-btn {

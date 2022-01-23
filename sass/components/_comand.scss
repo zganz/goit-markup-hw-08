@@ -6,7 +6,7 @@
   @media screen and (min-width: 1200px) {
     flex-wrap: unset;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     display: block;
   }
 }
@@ -14,6 +14,9 @@
 
 .our-team {
   background: #f5f4fa;
+  @media screen and (max-width: 1199px) {
+    padding: 60px 0;
+  }
 }
 
 .team-item-footer {
@@ -48,7 +51,7 @@
   border-radius: 0px 0px 4px 4px;
   margin: 0 15px;
   margin-bottom: 30px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 767px) {
   flex-basis: calc(100% / 2 - 30px);
   
   }
